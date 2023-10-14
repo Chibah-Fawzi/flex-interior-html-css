@@ -1,0 +1,30 @@
+section {
+    margin: 0 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.section-infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 90vw;
+    bottom: 100px;
+    color: white;
+    padding: 0 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+section img {
+    filter: contrast(0.8);
+}
+
+section button {
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 10px 20px;
+}
